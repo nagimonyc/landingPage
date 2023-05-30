@@ -1,5 +1,6 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from 'next/image';
+import styles from './page.module.css';
+import YoutubeEmbeded from "./YoutubeEmbeded";
 
 export default function Home() {
   return (
@@ -67,8 +68,7 @@ export default function Home() {
           <p>Product</p>
         </div>
         <div className="columnTwo">
-          <p>Video goes here</p>
-          {/* <video></video> */}
+        <YoutubeEmbeded embedId="q6SWnd11fSA" />
         </div>
       </div>
 
