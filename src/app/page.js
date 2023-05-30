@@ -62,12 +62,12 @@ export default function Home() {
       </div>
 
       <div className={styles.twoColumn}>
-        <div className="columnOne">
+        <div className={styles.columnOne}>
           <h2>nagimo</h2>
           <p>Vision</p>
           <p>Product</p>
         </div>
-        <div className="columnTwo">
+        <div className={styles.columnTwo}>
         <YoutubeEmbeded embedId="q6SWnd11fSA" />
         </div>
       </div>
