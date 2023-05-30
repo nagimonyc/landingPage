@@ -3,7 +3,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding-top: 2rem;
+  padding-right: 10rem;
+  padding-left: 10rem;
   min-height: 100vh;
 }
 
@@ -15,7 +17,6 @@
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
-  font-family: var(--font-mono);
 }
 
 .description a {
@@ -25,12 +26,11 @@
   gap: 0.5rem;
 }
 
+/* this is for the box around the p */
 .description p {
   position: relative;
   margin: 0;
   padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
 }
 
@@ -52,6 +52,8 @@
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
+  display: flex;
+  flex-direction: row;
 }
 
 .card span {
@@ -202,6 +204,15 @@
   }
 }
 
+.socials {
+  display: flex;
+  flex-direction: row;
+}
+
+.socials a {
+  padding-left: 1.5rem;
+}
+
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
@@ -219,11 +230,3 @@
   }
 }
 
-@keyframes rotate {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
-}

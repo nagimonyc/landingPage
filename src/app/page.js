@@ -5,90 +5,100 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
         <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Image
+            src="/logo.png"
+            alt="nagimo Logo"
+            className={styles.vercelLogo}
+            width={106}
+            height={76}
+            priority
+          />
+        </div>
+        <div
+          className={styles.card}>
+          <p>
+            Interested? Reach out <span>-&gt;</span>
+          </p>
+          <div
+          className={styles.socials}
           >
-            By{' '}
+          <a href="https://www.instagram.com/nagimonyc/"
+            // the target attribute opens the link in a new tab
+            target="_blank">
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
+              src=""
+              alt="instagram"
+              width={40}
+              height={40}
               className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
+              target="_blank"
             />
           </a>
+          <a href="https://www.linkedin.com/company/nagimo-trk/"
+            target="_blank">
+            <Image
+              src="/li.png"
+              alt="linkedin"
+              width={40}
+              height={40}
+              className={styles.vercelLogo}
+            />
+          </a>
+          <a href="mailto:nagimo.nyc@gmail.com"
+            target="_blank">
+            <Image
+              src="/email.png"
+              alt="email"
+              width={40}
+              height={40}
+              className={styles.vercelLogo}
+            />
+          </a>
+          </div>
         </div>
       </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="twoColumn">
+        <div className="columnOne">
+          <h2>nagimo</h2>
+          <p>Vision</p>
+          <p>Product</p>
+        </div>
+        <div className="columnTwo">
+          <video></video>
+        </div>
       </div>
 
       <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
+        <div
           target="_blank"
           rel="noopener noreferrer"
+          className={styles.socials}
         >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+          <a href=""
+          target="_blank">
+            <Image
+              src="/gh.png"
+              alt="github"
+              className={styles.vercelLogo}
+              width={40}
+              height={40}
+            />
+          </a>
+          <a href="https://www.youtube.com/@nagimonyc"
+          target="_blank">
+            <Image
+              src="/yt.png"
+              alt="youtube"
+              className={styles.vercelLogo}
+              width={40}
+              height={28}
+            />
+          </a>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        </div>
       </div>
     </main>
   )
