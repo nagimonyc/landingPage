@@ -27,7 +27,7 @@ export default function Home() {
             // the target attribute opens the link in a new tab
             target="_blank">
             <Image
-              src=""
+              src="/ig.svg"
               alt="instagram"
               width={40}
               height={40}
