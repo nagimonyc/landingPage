@@ -102,7 +102,8 @@
 .columnOne {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
+  padding-right: 1rem;
 }
 
 .columnTwo {

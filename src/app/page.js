@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from './page.module.css';
-import YoutubeEmbeded from "./YoutubeEmbeded";
+import YoutubeEmbeded from "./components/YoutubeEmbeded";
+import Timeline from './components/Timeline';
 
 export default function Home() {
   return (
@@ -22,41 +23,41 @@ export default function Home() {
             Interested? Reach out <span>-&gt;</span>
           </p>
           <div
-          className={styles.socials}
+            className={styles.socials}
           >
-          <a href="https://www.linkedin.com/company/nagimo-trk/"
-           // the target attribute opens the link in a new tab
-            target="_blank">
-            <Image
-              src="/li.png"
-              alt="linkedin"
-              width={40}
-              height={40}
-              className={styles.vercelLogo}
-            />
-          </a>
-          <a href="https://www.instagram.com/nagimonyc/"
-           
-           target="_blank">
-           <Image
-             src="/ig.svg"
-             alt="instagram"
-             width={40}
-             height={40}
-             className={styles.vercelLogo}
-             target="_blank"
-           />
-         </a>
-          <a href="mailto:nagimo.nyc@gmail.com"
-            target="_blank">
-            <Image
-              src="/email.png"
-              alt="email"
-              width={40}
-              height={40}
-              className={styles.vercelLogo}
-            />
-          </a>
+            <a href="https://www.linkedin.com/company/nagimo-trk/"
+              // the target attribute opens the link in a new tab
+              target="_blank">
+              <Image
+                src="/li.png"
+                alt="linkedin"
+                width={40}
+                height={40}
+                className={styles.vercelLogo}
+              />
+            </a>
+            <a href="https://www.instagram.com/nagimonyc/"
+
+              target="_blank">
+              <Image
+                src="/ig.svg"
+                alt="instagram"
+                width={40}
+                height={40}
+                className={styles.vercelLogo}
+                target="_blank"
+              />
+            </a>
+            <a href="mailto:nagimo.nyc@gmail.com"
+              target="_blank">
+              <Image
+                src="/email.png"
+                alt="email"
+                width={40}
+                height={40}
+                className={styles.vercelLogo}
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -64,12 +65,16 @@ export default function Home() {
       <div className={styles.twoColumn}>
         <div className={styles.columnOne}>
           <h2>nagimo</h2>
-          <p>Vision</p>
-          <p>Product</p>
+          <p>A network for athletes to track and share their passion</p>
+          <p>We are currently building our first MVP - an indoor climbing tracker and social networking platform. </p>
         </div>
         <div className={styles.columnTwo}>
-        <YoutubeEmbeded embedId="q6SWnd11fSA" />
+          <YoutubeEmbeded embedId="q6SWnd11fSA" />
         </div>
+      </div>
+
+      <div>
+        <Timeline></Timeline>
       </div>
 
       <div className={styles.grid}>
@@ -79,8 +84,8 @@ export default function Home() {
           rel="noopener noreferrer"
           className={styles.socials}
         >
-          <a href=""
-          target="_blank">
+          <a href="https://github.com/nagimonyc/landingPage"
+            target="_blank">
             <Image
               src="/gh.png"
               alt="github"
@@ -90,7 +95,7 @@ export default function Home() {
             />
           </a>
           <a href="https://www.youtube.com/@nagimonyc"
-          target="_blank">
+            target="_blank">
             <Image
               src="/yt.png"
               alt="youtube"

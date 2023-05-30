@@ -1,0 +1,25 @@
+
+
+.line {
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+};
+
+.dot:nth-of-type(1) {
+  left: 100px; /* Adjust this value to position the first dot */
+}
+
+.dot:nth-of-type(2) {
+  left: 200px; /* Adjust this value to position the second dot */
+}
+
+.dot:nth-of-type(3) {
+  left: 300px; /* Adjust this value to position the third dot */
+}
+
+.dot:nth-of-type(4) {
+  left: 400px; /* Adjust this value to position the fourth dot */
+}
