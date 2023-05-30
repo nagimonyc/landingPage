@@ -23,19 +23,8 @@ export default function Home() {
           <div
           className={styles.socials}
           >
-          <a href="https://www.instagram.com/nagimonyc/"
-            // the target attribute opens the link in a new tab
-            target="_blank">
-            <Image
-              src="/ig.svg"
-              alt="instagram"
-              width={40}
-              height={40}
-              className={styles.vercelLogo}
-              target="_blank"
-            />
-          </a>
           <a href="https://www.linkedin.com/company/nagimo-trk/"
+           // the target attribute opens the link in a new tab
             target="_blank">
             <Image
               src="/li.png"
@@ -45,6 +34,18 @@ export default function Home() {
               className={styles.vercelLogo}
             />
           </a>
+          <a href="https://www.instagram.com/nagimonyc/"
+           
+           target="_blank">
+           <Image
+             src="/ig.svg"
+             alt="instagram"
+             width={40}
+             height={40}
+             className={styles.vercelLogo}
+             target="_blank"
+           />
+         </a>
           <a href="mailto:nagimo.nyc@gmail.com"
             target="_blank">
             <Image
@@ -59,14 +60,15 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="twoColumn">
+      <div className={styles.twoColumn}>
         <div className="columnOne">
           <h2>nagimo</h2>
           <p>Vision</p>
           <p>Product</p>
         </div>
         <div className="columnTwo">
-          <video></video>
+          <p>Video goes here</p>
+          {/* <video></video> */}
         </div>
       </div>
 
