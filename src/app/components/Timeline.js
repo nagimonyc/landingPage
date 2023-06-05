@@ -7,7 +7,7 @@ const Timeline = () => {
     <div>
       <Image
       className={styles.line}
-      src="/timeline.png"
+      src="/timeline.svg"
       alt="timeline"
       width={1080}
       height={84}
