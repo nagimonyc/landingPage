@@ -65,8 +65,9 @@ export default function Home() {
       <div className={styles.twoColumn}>
         <div className={styles.columnOne}>
           <h2>nagimo</h2>
-          <p>A network for athletes to track and share their passion</p>
-          <p>We are currently building our first MVP - an indoor climbing tracker and social networking platform. </p>
+          <p>A network for <strong>athletes</strong> to track share what <strong>drives</strong> them</p>
+          <p>MVP 1</p>
+          <p>Indoor climbing tracker and social networking platform.</p>
         </div>
         <div className={styles.columnTwo}>
           <YoutubeEmbeded embedId="q6SWnd11fSA" />
