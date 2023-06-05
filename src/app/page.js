@@ -65,7 +65,7 @@ export default function Home() {
       <div className={styles.twoColumn}>
         <div className={styles.columnOne}>
           <h2>nagimo</h2>
-          <p>A network for <strong>athletes</strong> to track share what <strong>drives</strong> them</p>
+          <p>A network for <strong>athletes</strong> to track their <strong>passion</strong></p>
           <p className={styles.mvp}>MVP #1: Indoor climbing tracker and social networking platform.</p>
         </div>
         <div className={styles.columnTwo}>
