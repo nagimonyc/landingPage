@@ -31,8 +31,8 @@ export default function Home() {
               <Image
                 src="/li.png"
                 alt="linkedin"
-                width={40}
-                height={40}
+                width={35}
+                height={35}
                 className={styles.vercelLogo}
               />
             </a>
@@ -42,8 +42,8 @@ export default function Home() {
               <Image
                 src="/ig.svg"
                 alt="instagram"
-                width={40}
-                height={40}
+                width={35}
+                height={35}
                 className={styles.vercelLogo}
                 target="_blank"
               />
@@ -53,8 +53,8 @@ export default function Home() {
               <Image
                 src="/email.png"
                 alt="email"
-                width={40}
-                height={40}
+                width={35}
+                height={35}
                 className={styles.vercelLogo}
               />
             </a>
@@ -66,8 +66,7 @@ export default function Home() {
         <div className={styles.columnOne}>
           <h2>nagimo</h2>
           <p>A network for <strong>athletes</strong> to track share what <strong>drives</strong> them</p>
-          <p>MVP 1</p>
-          <p>Indoor climbing tracker and social networking platform.</p>
+          <p className={styles.mvp}>MVP #1: Indoor climbing tracker and social networking platform.</p>
         </div>
         <div className={styles.columnTwo}>
           <YoutubeEmbeded embedId="q6SWnd11fSA" />
@@ -91,8 +90,8 @@ export default function Home() {
               src="/gh.png"
               alt="github"
               className={styles.vercelLogo}
-              width={40}
-              height={40}
+              width={35}
+              height={35}
             />
           </a>
           <a href="https://www.youtube.com/@nagimonyc"
@@ -101,8 +100,8 @@ export default function Home() {
               src="/yt.png"
               alt="youtube"
               className={styles.vercelLogo}
-              width={40}
-              height={28}
+              width={35}
+              height={25}
             />
           </a>
 
