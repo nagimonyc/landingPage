@@ -7,38 +7,10 @@ const Timeline = () => {
     <div>
       <Image
       className={styles.line}
-      src="/line.png"
+      src="/timeline.png"
       alt="timeline"
       width={1080}
-      height={1}
-       />
-       <Image 
-       className={styles.dot}
-       src="/dot.png"
-       alt="dot"
-       width="20"
-       height="20"
-       />
-       <Image 
-       className={styles.dot}
-       src="/dot.png"
-       alt="dot"
-       width="20"
-       height="20"
-       />
-       <Image 
-       className={styles.dot}
-       src="/dot.png"
-       alt="dot"
-       width="20"
-       height="20"
-       />
-       <Image 
-       className={styles.dot}
-       src="/dot.png"
-       alt="dot"
-       width="20"
-       height="20"
+      height={84}
        />
     </div>
   )
