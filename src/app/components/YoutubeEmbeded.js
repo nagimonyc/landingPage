@@ -4,6 +4,7 @@ import styles from "./YoutubeEmbeded.module.css"
 
 const YoutubeEmbed = ({ embedId }) => (
   <div className={styles.video}>
+        <div className={styles.videoWrapper}>
     <iframe
       width="499.8"
       height="288"
@@ -12,6 +13,7 @@ const YoutubeEmbed = ({ embedId }) => (
       allowFullScreen
       title="Embedded youtube"
     />
+    </div>
   </div>
 );
 
