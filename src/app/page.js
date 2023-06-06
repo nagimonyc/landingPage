@@ -23,6 +23,7 @@ export default function Home() {
           <p>
             Interested? Reach out <span>-&gt;</span>
           </p>
+
           <div
             className={styles.socials}
           >
@@ -68,7 +69,7 @@ export default function Home() {
         <div className={styles.columnOne}>
           <h2>nagimo</h2>
           <p>A network for <strong>athletes</strong> to track their <strong>passion</strong></p>
-          <p className={styles.mvp}>MVP #1: Indoor climbing tracker and social networking platform.</p>
+          <p className={styles.mvp}>MVP #1: Indoor climbing tracker and social network.</p>
         </div>
         <div className={styles.columnTwo}>
           <YoutubeEmbeded embedId="q6SWnd11fSA" />
