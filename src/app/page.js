@@ -12,7 +12,7 @@ export default function Home() {
           <Image
             src="/logo.png"
             alt="nagimo Logo"
-            className={styles.vercelLogo}
+            
             width={106}
             height={76}
             priority
@@ -35,7 +35,7 @@ export default function Home() {
                 alt="linkedin"
                 width={35}
                 height={35}
-                className={styles.vercelLogo}
+                
               />
             </a>
             <a href="https://www.instagram.com/nagimonyc/"
@@ -46,7 +46,7 @@ export default function Home() {
                 alt="instagram"
                 width={35}
                 height={35}
-                className={styles.vercelLogo}
+                
                 target="_blank"
               />
             </a>
@@ -57,7 +57,7 @@ export default function Home() {
                 alt="email"
                 width={35}
                 height={35}
-                className={styles.vercelLogo}
+                
               />
             </a>
           </div>
