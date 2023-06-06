@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './page.module.css';
-import YoutubeEmbeded from "./components/YoutubeEmbeded";
+import YoutubeEmbed from "./components/YoutubeEmbeded";
 import Timeline from './components/Timeline';
 
 export default function Home() {
@@ -72,7 +72,7 @@ export default function Home() {
           <p className={styles.mvp}>MVP #1: Indoor climbing tracker and social network.</p>
         </div>
         <div className={styles.columnTwo}>
-          <YoutubeEmbeded embedId="q6SWnd11fSA" />
+          <YoutubeEmbed embedId="q6SWnd11fSA" />
         </div>
       </div>
 
