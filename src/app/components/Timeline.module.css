@@ -1,6 +1,15 @@
-
-
 .line {
   position: relative;
 }
 
+.timelineImage {
+  width: 1163px;
+  height: 92px;
+  background-image: url('/timeline.svg');
+}
+
+@media (prefers-color-scheme: dark) {
+  .timelineImage {
+    background-image: url('/timeline-darkmode.svg');
+  }
+}

@@ -4,16 +4,10 @@ import styles from './Timeline.module.css';
 
 const Timeline = () => {
   return (
-    <div>
-      <Image
-      className={styles.line}
-      src="/timeline.svg"
-      alt="timeline"
-      width={1080}
-      height={84}
-       />
+    <div className={styles.line}>
+      <div className={styles.timelineImage} />
     </div>
   )
 }
 
-export default Timeline
+export default Timeline;
