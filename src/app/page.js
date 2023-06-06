@@ -6,6 +6,7 @@ import Timeline from './components/Timeline';
 export default function Home() {
   return (
     <main className={styles.main}>
+      <div className={styles.navbar}>
       <div className={styles.description}>
         <div>
           <Image
@@ -61,6 +62,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      </div>
 
       <div className={styles.twoColumn}>
         <div className={styles.columnOne}>
@@ -79,7 +81,7 @@ export default function Home() {
 
       <div className={styles.grid}>
 
-        <div
+        <footer
           target="_blank"
           rel="noopener noreferrer"
           className={styles.socials}
@@ -90,8 +92,8 @@ export default function Home() {
               src="/gh.png"
               alt="github"
               className={styles.vercelLogo}
-              width={35}
-              height={35}
+              width={30}
+              height={30}
             />
           </a>
           <a href="https://www.youtube.com/@nagimonyc"
@@ -100,12 +102,12 @@ export default function Home() {
               src="/yt.png"
               alt="youtube"
               className={styles.vercelLogo}
-              width={35}
-              height={25}
+              width={30}
+              height={21.4}
             />
           </a>
 
-        </div>
+        </footer>
       </div>
     </main>
   )

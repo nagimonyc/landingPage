@@ -3,10 +3,24 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding-top: 2rem;
-  padding-right: 10rem;
+  padding-right: 12rem;
   padding-left: 10rem;
   min-height: 100vh;
+}
+
+.navbar {
+  border-bottom: #2f3448 solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  /* max-width: var(--max-width); */
+  width: 100%;
+  z-index: 2;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+
 }
 
 .description {
@@ -107,7 +121,7 @@
   width: 100%;
   z-index: 2;
   flex-wrap: wrap;
-  
+  padding-bottom: 2rem;
 }
 
 .columnOne {
@@ -125,7 +139,7 @@
 }
 
 .columnOne h2 {
-  font-size: 2rem;   
+  font-size: 2.8rem;   
   color: #2f3448;
   margin-bottom: 3.5rem; 
   font-weight: 400;
@@ -144,6 +158,11 @@
   align-items: right;
   flex: 1 1 100%;
   max-width: 50%;
+  padding-top: 3rem;
+}
+
+.timeline {
+ padding-top: 3rem;
 }
 
 
