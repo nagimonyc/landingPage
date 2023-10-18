@@ -168,7 +168,7 @@
 .privacy {
   margin-top: 2.5rem;
   color:rgb(0, 0, 0);
-  font-style: italic;
+
   text-decoration: underline; /* makes it look like a link */
   cursor: pointer; 
 }

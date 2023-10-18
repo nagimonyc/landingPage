@@ -72,9 +72,7 @@ export default function Home() {
           <h2>nagimo</h2>
           <p>A network for <strong>athletes</strong> to track their <strong>passion</strong></p>
           <p className={styles.mvp}>MVP #1: Indoor climbing tracker and social network.</p>
-          <a href='/privacy'>
-            <p className={styles.privacy}>Click here to read our privacy policy.</p>
-          </a>
+
 
         </div>
         <div className={styles.columnTwo}>
@@ -135,7 +133,7 @@ export default function Home() {
         <p><strong>
           Contact Us </strong></p>
           <p>
-          If you have any questions about this Privacy Policy or our data practices, please contact us at <a href='mailto:nagimo.nyc@nagimo.org'>nagimo.nyc@nagimo.org</a>.
+          If you have any questions about this Privacy Policy or our data practices, please contact us at <a href='mailto:nagimo.nyc@nagimo.org' className={styles.privacy}>nagimo.nyc@nagimo.org</a>.
 
           </p>
 
